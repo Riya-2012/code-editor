@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width:100%;
+
+}
+.A{
+    background-color:wheat;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.content{
+    background-color: rgb(97, 153, 134);
+    flex-basis: 33%;
+}
+.content label{
+padding: 6.5px 0px;
+background-color: black;
+display: block;
+color: white;
+
+}
+.content textarea{
+width: 100%;
+height: 86.5%;
+outline: none;
+border: none;
+padding: 10px;
+}
+.B{
+background-color: rgb(135, 197, 156);
+
+flex-basis: 50%;
+}
+.B iframe{
+    width: 100%;
+    height: 95%;
+    display: block;
+}
+.B label{
+    padding: 6.5px 0px;
+background-color: gray;
+display: block;
+color: white;
+}
